@@ -1,0 +1,8 @@
+requests
+beautifulsoup4
+google-generativeai
+faiss-cpu
+sentence-transformers
+streamlit
+langchain
+langchain-community
