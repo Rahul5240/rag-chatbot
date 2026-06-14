@@ -3,7 +3,7 @@ import os
 
 # ---- Auto build FAISS index if not exists ----
 if not os.path.exists("faiss_index"):
-    st.info("Building knowledge base from PDF... Please wait 3-4 minutes on first load.")
+    st.info("Building knowledge base from PDF... Please wait 1-2 minutes on first load.")
     from ingest import build_vector_database
     build_vector_database()
 
@@ -11,7 +11,7 @@ from chatbot import ask_question
 
 # ---- Page Settings ----
 st.set_page_config(
-    page_title="Pakistan Scholarship Chatbot",
+    page_title="Pakistan University Scholarship Chatbot",
     page_icon="🎓",
     layout="centered"
 )
